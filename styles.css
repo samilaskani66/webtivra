@@ -52,7 +52,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--purple); box-shadow: 0 0 16px rgba(165,130,255,.9); }
 .hero h1 { max-width: 610px; margin: 0; font-size: clamp(44px, 5.3vw, 72px); font-weight: 620; letter-spacing: -.065em; line-height: 1.04; }
 .hero h1 .nowrap { white-space: nowrap; }
-.hero h1 span { color: var(--purple); }
+.hero h1 > span:last-child { color: var(--purple); }
 .hero-description { max-width: 440px; margin: 24px 0 0; color: rgba(255,255,255,.66); font-size: 14px; line-height: 1.85; }
 .hero-actions { display: flex; align-items: center; gap: 28px; margin-top: 32px; }
 .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; gap: 18px; padding: 0 18px; border: 1px solid transparent; border-radius: 6px; cursor: pointer; font-size: 11px; font-weight: 650; transition: transform .2s ease, background .2s ease, border-color .2s ease, color .2s ease; }
